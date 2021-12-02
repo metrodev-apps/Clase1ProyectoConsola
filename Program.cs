@@ -3,3 +3,8 @@ Console.WriteLine("Hello, World!");
 
 
 Console.WriteLine("Otra vez, Hello World!");
+
+
+var user = new User("Enrique", "Diaz");
+
+Console.WriteLine(user.FullName());
